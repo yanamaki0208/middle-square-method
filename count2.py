@@ -4,7 +4,7 @@ from std_msgs.msg import Int32
 
 rospy.init_node('count2')
 pub = rospy.Publisher('count_up2', Int32, queue_size=1)
-rate = rospy.Rate(10)
+rate = rospy.Rate(1)
 o = 0
 while not rospy.is_shutdown():
         o+= 1
