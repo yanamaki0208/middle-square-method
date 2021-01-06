@@ -31,7 +31,7 @@ This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_
 `ubuntu@ubuntu:~/catkin_ws/src/mypkg$ cd middle-square-method`  
 
 *give execution privileges to all users  
-`ubuntu@ubuntu:~/catkin_ws/src/mypkg$ chmod +x heihoupub.py`  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg/middle-square-method$ chmod +x heihoupub.py`  
 
 #### terminal3  
 
@@ -42,15 +42,28 @@ This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_
 `ubuntu@ubuntu:~/catkin_ws/src/mypkg$ cd middle-square-method`  
 
 *give execution privileges to all users  
-`ubuntu@ubuntu:~/catkin_ws/src/mypkg$ chmod +x heihousub.py`  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg/middle-square-method$ chmod +x heihousub.py`  
 
 #### terminal4  
 
 *I won't do anything  
 `ubuntu@ubuntu:~$` 
 
+## Step 2.
+#### terminal2  
 
+*move nodes that perform calculations and produce information  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg/middle-square-method$ rosrun mypkg heihoupub.py`  
 
+#### terminal3  
+
+*move the nodes that pick up the information  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg/middle-square-method$ rosrun mypkg heihousub.py`  
+
+#### terminal4  
+
+*show communication between nodes  
+`ubuntu@ubuntu:~$ rostopic echo /twice`  
 
 # Note
 
