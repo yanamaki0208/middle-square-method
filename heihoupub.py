@@ -4,7 +4,7 @@ from std_msgs.msg import Int32
 
 #Please enter a 4-digit number in s1
 s1= 1234
-n = s1
+i = s1
 
 rospy.init_node('count')
 pub = rospy.Publisher('count_up', Int32, queue_size=1)
