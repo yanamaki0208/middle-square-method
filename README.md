@@ -1,3 +1,7 @@
+*ubuntu@ubuntu:~/catkin_ws/src/mypkg/script$ rosrun mypkg heihoupub.py  
+*ubuntu@ubuntu:~/catkin_ws/src/mypkg/script$ rosrun mypkg heihousub.py  
+*ubuntu@ubuntu:~$ roscore  
+*ubuntu@ubuntu:~$ rostopic echo /twice  
 # middle-square-method
 
 This is a repository of  that middle-square method have been converted to ROS.
@@ -9,13 +13,14 @@ This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_
 # Usage
 
 *copy the repository  
-`git clone https://github.com/yanamaki0208/myled.git`  
+`git clone https://github.com/yanamaki0208/middle-square-method.git`  
 
 *move directory  
-`cd myled`  
+`cd middle-square-method`  
 
-*compile "myled.c"  
-`make`  
+*give execution privileges to all users  
+`chmod +x heihousub.py`  
+`chmod +x heihoupub.py`  
 
 *install the module  
 `sudo insmod myled.ko`  
