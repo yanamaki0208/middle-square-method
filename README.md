@@ -11,9 +11,20 @@ This is a shot of random numbers being generated.　↓　![image](https://user-
 This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_V8&feature=youtu.be
 
 # Usage
+## Step 1.
+### terminal1
+
+`ubuntu@ubuntu:~$ roscore`  
+
+### terminal2
+
+*move directory  
+`cd catkin_ws`  
+`cd src`  
+`cd mypkg`  
 
 *copy the repository  
-`git clone https://github.com/yanamaki0208/middle-square-method.git`  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg$ git clone https://github.com/yanamaki0208/middle-square-method.git`  
 
 *move directory  
 `cd middle-square-method`  
