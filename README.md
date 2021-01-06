@@ -5,7 +5,7 @@ This is a repository of  that middle-square method have been converted to ROS.
 This illuminates the LEDs on pins 23, 24, and 25.
 
 # DEMO
-![スクリーンショット (207)](https://user-images.githubusercontent.com/66021066/101283347-15730a80-381d-11eb-900f-b3c516a028a8.png)
+https://www.youtube.com/watch?v=T2Y9UUCg_V8&feature=youtu.be
 
 # Usage
 
@@ -64,4 +64,4 @@ Connect the anode to GPIO pin and the cathode to ground.
 
 # License
 
-"myled" is under [GNU General Public License v3.0](https://ja.wikipedia.org/wiki/GNU_General_Public_License#%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B33).
+"middle-square-method" is under [GNU General Public License v3.0](https://ja.wikipedia.org/wiki/GNU_General_Public_License#%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B33).
