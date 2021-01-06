@@ -46,34 +46,11 @@ This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_
 
 #### terminal4  
 
-
-*turn off the red LED  
-`echo 0 < /dev/myled0`  
-
-*turn off the yellow LED  
-`echo 1 < /dev/myled0`
-
-*turn off the blue LED  
-`echo 2 < /dev/myled0`  
-
-*turn off all LEDs  
-`echo 012 < /dev/myled0`    
+*I won't do anything  
+`ubuntu@ubuntu:~$` 
 
 
-*turn on the red LED  
-`echo 3 < /dev/myled0`  
 
-*turn on the yellow LED  
-`echo 4 < /dev/myled0`  
-
-*turn on the blue LED  
-`echo 5 < /dev/myled0`
-
-*turn on all LEDs  
-`echo 345 < /dev/myled0`  
-
-*uninstall the module   
-`sudo rmmod meled.ko`  
 
 # Note
 
