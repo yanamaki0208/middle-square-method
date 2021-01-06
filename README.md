@@ -12,11 +12,11 @@ This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_
 
 # Usage
 ## Step 1.
-### terminal1
+#### terminal1
 
 `ubuntu@ubuntu:~$ roscore`  
 
-### terminal2
+#### terminal2
 
 *move directory  
 `cd catkin_ws`  
@@ -30,14 +30,20 @@ This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_
 `cd middle-square-method`  
 
 *give execution privileges to all users  
-`chmod +x heihousub.py`  
 `chmod +x heihoupub.py`  
 
-*install the module  
-`sudo insmod myled.ko`  
+#### terminal3
 
-*change permissions  
-`sudo chmod 666 /dev/myled0`    
+*move directory  
+`cd catkin_ws`  
+`cd src`  
+`cd mypkg`  
+`cd middle-square-method`  
+
+*give execution privileges to all users  
+`chmod +x heihousub.py`  
+
+#### terminal4
 
 
 *turn off the red LED  
