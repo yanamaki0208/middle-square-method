@@ -14,36 +14,37 @@ This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_
 ## Step 1.
 #### terminal1
 
+*turn on the communication between ROS nodes.  
 `ubuntu@ubuntu:~$ roscore`  
 
 #### terminal2
 
 *move directory  
-`cd catkin_ws`  
-`cd src`  
-`cd mypkg`  
+`ubuntu@ubuntu:~$ cd catkin_ws`  
+`ubuntu@ubuntu:~/catkin_ws$ cd src`  
+`ubuntu@ubuntu:~/catkin_ws/src$ cd mypkg`  
 
 *copy the repository  
 `ubuntu@ubuntu:~/catkin_ws/src/mypkg$ git clone https://github.com/yanamaki0208/middle-square-method.git`  
 
 *move directory  
-`cd middle-square-method`  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg$ cd middle-square-method`  
 
 *give execution privileges to all users  
-`chmod +x heihoupub.py`  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg$ chmod +x heihoupub.py`  
 
-#### terminal3
+#### terminal3  
 
 *move directory  
-`cd catkin_ws`  
-`cd src`  
-`cd mypkg`  
-`cd middle-square-method`  
+`ubuntu@ubuntu:~$ cd catkin_ws`  
+`ubuntu@ubuntu:~/catkin_ws$ cd src`  
+`ubuntu@ubuntu:~/catkin_ws/src$ cd mypkg`  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg$ cd middle-square-method`  
 
 *give execution privileges to all users  
-`chmod +x heihousub.py`  
+`ubuntu@ubuntu:~/catkin_ws/src/mypkg$ chmod +x heihousub.py`  
 
-#### terminal4
+#### terminal4  
 
 
 *turn off the red LED  
