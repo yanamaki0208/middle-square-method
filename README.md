@@ -1,7 +1,3 @@
-`ubuntu@ubuntu:~/catkin_ws/src/mypkg/script$ rosrun mypkg heihoupub.py`  
-`ubuntu@ubuntu:~/catkin_ws/src/mypkg/script$ rosrun mypkg heihousub.py`  
-`ubuntu@ubuntu:~$ roscore`  
-`ubuntu@ubuntu:~$ rostopic echo /twice`  
 # middle-square-method
 
 This is a repository of  that middle-square method have been converted to ROS.
