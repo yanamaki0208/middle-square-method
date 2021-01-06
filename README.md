@@ -1,2 +1,2 @@
 # middle-square-method
-This is the repository for the middle-square method.
+This is a repository of  that middle-square method have been converted to ROS.
