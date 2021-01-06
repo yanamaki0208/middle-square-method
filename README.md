@@ -1,8 +1,6 @@
 # middle-square-method
-This is a repository of  that middle-square method have been converted to ROS.
-# myled
 
-This illuminates the LEDs on pins 23, 24, and 25.
+This is a repository of  that middle-square method have been converted to ROS.
 
 # DEMO
 ![image](https://user-images.githubusercontent.com/66021066/103771582-5607b300-506b-11eb-9dab-7a3d909c44f7.png)
@@ -56,7 +54,8 @@ https://www.youtube.com/watch?v=T2Y9UUCg_V8&feature=youtu.be
 `sudo rmmod meled.ko`  
 
 # Note
-Connect the anode to GPIO pin and the cathode to ground.
+
+The smaller the initial value s1 is, the faster the random number converges to zero.
 
 # Author
 
