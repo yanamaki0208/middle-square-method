@@ -2,7 +2,7 @@
 import rospy
 from std_msgs.msg import Int32
 
-n = 1234
+i = 1234
 
 def cb(message):
 	global n
