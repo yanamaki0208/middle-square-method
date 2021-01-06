@@ -3,9 +3,8 @@
 This is a repository of  that middle-square method have been converted to ROS.
 
 # DEMO
-![image](https://user-images.githubusercontent.com/66021066/103771582-5607b300-506b-11eb-9dab-7a3d909c44f7.png)
-
-https://www.youtube.com/watch?v=T2Y9UUCg_V8&feature=youtu.be
+This is a shot of random numbers being generated.　→　![image](https://user-images.githubusercontent.com/66021066/103771582-5607b300-506b-11eb-9dab-7a3d909c44f7.png)
+This is a link to a demo video　→　https://www.youtube.com/watch?v=T2Y9UUCg_V8&feature=youtu.be
 
 # Usage
 
